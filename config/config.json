@@ -1,0 +1,107 @@
+{
+  "development": {
+    "username": "marabout",
+    "password": "",
+    "database": "CloudErpDB",
+
+    "host": "192.168.0.186",
+    "port":5432,
+    "dialect": "postgres",
+
+    "debug_url": false,
+
+    "appBaseUrl": "http://localhost:3000",
+    "appBaseApiUrl": "http://192.168.0.139:3000/api",
+    "printerCallbackUrl": "http://192.168.0.236:5501",
+    "appUrlBaseApi": "http://192.168.0.139:3000/api",
+    "maintenance_status_ids": {
+      "waiting": 4
+    },
+    "rabbitmq": {
+      "host": "amqp://localhost",
+      "queues": {
+        "generateBundles": "marabout.generateBundles"
+      }
+    }
+  },
+  "production": {
+    "username": "marabout",
+    "password": "",
+    "database": "CloudErpDB",
+
+    "host": "142.93.196.57",
+    "port":5432,
+    "dialect": "postgres",
+
+    "debug_url": false,
+
+    "appBaseUrl": "http://142.93.196.57:3000",
+    "appBaseApiUrl": "http://142.93.196.57:3000/api",
+    "printerCallbackUrl": "http://142.93.196.57:5501",
+
+    "maintenance_status_ids": {
+      "waiting": 4
+    }
+  },
+  "staging": {
+    "username": "marabout",
+    "password": "marabout",
+    "database": "clouderpdb",
+
+    "host": "localhost",
+    "port":5432,
+    "dialect": "postgres",
+
+    "debug_url": false,
+
+    "appUrlBase": "http://192.168.0.103:3000",
+    "appUrlBaseApi": "http://192.168.0.103:3000/api",
+    "printerCallbackUrl": "http://192.168.0.103"
+
+  },
+  "staging2": {
+    "username": "marabout",
+    "password": "marabout",
+    "database": "clouderpdb",
+
+    "debug_url": false,
+
+    "host": "localhost",
+    "port":5432,
+    "dialect": "postgres",
+
+    "appUrlBase": "http://192.168.0.103:3000",
+    "appUrlBaseApi": "http://192.168.0.103:3000/api",
+    "printerCallbackUrl": "http://192.168.0.103"
+
+  },
+  "staging4": {
+    "username": "marabout",
+    "password": "marabout",
+    "database": "clouderpdb",
+
+    "debug_url": false,
+
+    "host": "localhost",
+    "port":5432,
+    "dialect": "postgres",
+
+    "appUrlBase": "http://staging4.demo-marabout.org",
+    "appUrlBaseApi": "http://staging4-api.demo-marabout.org",
+    "printerCallbackUrlApi": "http://192.168.0.100:3000/api",
+    "printerCallbackUrl": "http://192.168.0.236:5501"
+
+  },
+  "test": {
+    "username": "marabout",
+    "password": "",
+    "database": "CloudErpDB",
+    "host": "142.93.196.57",
+    "port":5432,
+    "dialect": "postgres",
+
+    "appUrlBase": "http://localhost:3000",
+    "appUrlBaseApi": "http://localhost:3000/api"
+  },
+  "secret" : "'BL#,miQFau,amA!?FFW@oKO3<_<E-j-]PVO65d!c%|V2h{(3#~~*$8{X<H}BVm"
+}
