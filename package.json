@@ -16,7 +16,7 @@
     "dec-to-hex": "^2.0.0",
     "express": "^4.17.1",
     "install": "^0.12.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "mime": "^2.4.4",
     "moment": "^2.24.0",
